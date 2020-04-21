@@ -1,0 +1,58 @@
+.footer {
+	background: url(/img/footer/footer.png);
+}
+.footer__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 40px 0;
+}
+
+.footer__title {
+	color: #966a8d;
+	font-family: "TT Norms";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.footer__menu {
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 36px;
+}
+
+.footer__link {
+	color: #ffffff
+}
+
+.footer__name {
+	color: #ffffff;
+	font-family: "TT Norms Regular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.footer__info {
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 18px;
+	font-weight: 700;
+}
+.footer__adress {
+	margin: auto 0;
+}
+
+@media (max-width: 575px) {
+	.footer__row {
+		align-items: center;
+		flex-direction: column;
+	}
+	.footer__contact {
+		margin: 20px 0px 0px 0px;
+	}
+	.footer__adress {
+		margin: 20px 0px 0px 0px;
+	}
+}

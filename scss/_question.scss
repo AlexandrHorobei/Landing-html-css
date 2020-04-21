@@ -1,0 +1,80 @@
+.question {
+	background: url(/img/brands/bg-2layers.png);
+}
+
+.question__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 69px 0;
+}
+.question__block {
+	margin: auto 0;
+	flex: 0 1 40%
+}
+.question__title {
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 60px;
+}
+.question__descr {
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.question__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 1 40%;
+	input {
+		color: #ffffff;
+	}
+
+}
+.question__input {
+	flex-direction: column;
+	display: flex;
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0px 0px 50px 0px;
+	input {
+		border-bottom: 1px solid #ffffff;
+		width: 255px;
+	}
+}
+.question__personal{
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	span {
+		text-decoration: underline;
+	}
+}
+.question__button{
+	background-color: #966a8d;
+}
+
+@media (max-width: 594px) {
+	.question__row {
+		flex-direction: column;
+		padding: 30px 0px 30px 0px;
+	}
+	.question__block {
+		text-align: center;
+	}
+	.question__form {
+		margin: 30px 0px 0px 0px;
+	}
+}

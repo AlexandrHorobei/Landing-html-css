@@ -1,0 +1,41 @@
+
+.features__row {
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0;
+}
+.features-block {
+	display: flex;
+	flex: 0 1 33.3333%;
+	flex-direction: column;
+	margin: 0px 50px;
+	align-items: center;
+}
+
+.features-block__title {
+	color: #252525;
+	font-family: "TT Norms";
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 52px;
+}
+.features-block__descr {
+	color: #252525;
+	font-family: "TT Norms";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+@media (max-width: 768px) {
+	.features__row {
+		flex-direction: column;
+		padding: 0 0;
+	}
+	.features-block {
+		margin: 30px 0px 30px 0px;
+	}
+	.features-block__descr {
+		text-align: center;
+	}
+}

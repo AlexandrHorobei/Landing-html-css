@@ -1,0 +1,97 @@
+.main {
+	background: url(/img/main/main-bg.png);
+}
+
+.main__row {
+	display: flex;
+	flex-direction: row;
+}
+
+.main__block {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 70%
+}
+.main__title {
+	max-width: 568px;
+	margin: 106px 0px 0px 0px;
+}
+.main__subtitle {
+	max-width: 387px;
+}
+.main__form {
+	display: flex;
+	flex-direction: row;
+	color: #4e2242;
+	font-family: "TT Norms";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 35px 0px 0px 0px;
+	
+}
+.main__input {
+	display: flex;
+	flex-direction: column;
+	max-width: 255px;
+	margin: 0px 31px 0px 0px;
+}
+.main__personal {
+	color: #4e2242;
+	font-family: "TT Norms";
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	margin: 19px 0px 36px 0px;
+	span{
+		text-decoration: underline;
+	}
+}
+.main__image {
+	position: relative;
+	flex: 1 1 30%
+}
+.main__cond {
+	position: absolute;
+	width: 100%;
+	top: 6%;
+	right: 60%;
+}
+.main__girl {
+	position: absolute;
+	width: 100%;
+	width: 100%;
+	top: 28%;
+}
+
+@media (max-width: 883px) {
+	.main__image {
+		display: none;
+	}
+	.main__title {
+		margin: 70px 0px 0px 0px;
+		text-align: center;
+	}
+	.main__subtitle {
+		margin: 20px 0px 0px 0px;
+	}
+	.main__block {
+		align-items: center;
+	}
+	.main__input {
+		margin: 20px 20px 0px 0px;
+	}
+}
+
+@media (max-width: 650px) {
+	.main__image {
+		display: none;
+	}
+	.main__form {
+		flex-direction: column;
+	}
+
+	.main-button {
+		margin: 20px 0px 0px 0px;
+	}
+}

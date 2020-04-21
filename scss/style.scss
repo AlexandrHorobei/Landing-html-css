@@ -1,0 +1,111 @@
+@import "_inform";
+@import "_null";
+@import "_mixins";
+@import "_nav";
+@import "_main";
+@import "_features";
+@import "_brands";
+@import "_product";
+@import "_calc";
+@import "_central";
+@import "_question";
+@import "_map";
+@import "_footer";
+@import "_slider";
+@import "_popup";
+
+
+
+
+body {
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.main-screen {
+	background-image: linear-gradient(to top, #e0e3eb 0%, #eceff4 100%);
+	opacity: -1;
+}
+
+h1 {
+	background-image: linear-gradient(to right, #966a8d 0%, #4e2242 100%);
+	background-clip: text;
+	color: #000924;
+	font-family: "TT Norms";
+	font-size: 41px;
+	font-weight: 700;
+	line-height: 52px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	@media (max-width: 768px) {
+		font-size: 29px;
+    	line-height: 35px;
+	}
+}
+
+h4 {
+	color: #242424;
+	font-family: "TT Norms";
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 26px;
+	margin: 62px 0px 0px 0px;
+}
+
+h3 {
+	background-image: linear-gradient(to right, #966a8d 0%, #4e2242 100%);
+	background-clip: text;
+	color: #000924;
+	font-family: "TT Norms";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 60px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	@media (max-width: 768px) {
+		font-size: 24px;
+		line-height: 23px;
+	}
+}
+
+input {
+	background: none;
+	border-bottom: 1px solid #4e2242;
+}
+
+.ibg{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	}
+	
+.ibg img{
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+a {
+	&:hover {
+		color: #81f100;
+	}
+}

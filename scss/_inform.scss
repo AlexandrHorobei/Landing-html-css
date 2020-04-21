@@ -1,0 +1,91 @@
+.inform {
+	margin-top: 65px;
+}
+
+.inform__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 0px 0px 14px 0px;
+}
+.inform__logo {
+	display: none;
+	flex: 0 1 10%;
+}
+.inform__block {
+	display: flex;
+	flex: 0 1 70%;
+}
+.inform__contact {
+	display: flex;
+	flex: 0 1 33.3333%;
+}
+.inform__icon {
+	display: flex;
+   align-items: center;
+	width: 30px;
+
+}
+.inform__text {
+	color: #966a8d;
+	font-family: "TT Norms";
+	font-size: 14px;
+	font-weight: 400;
+
+}
+.inform__span {
+	font-family: "TT Norms - Extra Bold";
+	font-weight: 700;
+	color: #252525;
+	margin: 6px 0px 0px 0px;
+	line-height: 28px;
+}
+.inform__button {
+	flex: 1 1 20%;
+
+}
+
+button, .button{
+	padding: 16px 36px;
+	border-radius: 25px;
+	background-color: #4e2242;
+	border: 2px solid #4e2242;
+	color: #ffffff;
+	font-family: "TT Norms";
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.7px;
+	transition-duration: .2s;
+	cursor: pointer;
+	&:hover {
+		background-color: #ffffff;
+		color: #4e2242;
+		border: 2px solid #4e2242;
+	}
+}
+
+.inform__image {
+	max-width: 80px;
+	margin: 0 auto;
+}
+
+.inform__descr {
+	text-align: left;
+	margin: 0px 0px 0px 14px;
+}
+
+@media (max-width: 1031px) {
+	.inform__span{
+		font-size: 14px;
+	}
+	.inform__descr {
+		margin: 0px 0px 0px 6px;
+	}
+}
+
+@media (max-width: 768px){
+	.inform {
+		display: none;
+	}
+}
